@@ -3,21 +3,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="로컬 저장소 만들기 # git init
-원격 저장소(Repository) 만들기 # GitHub에 접속 [&#43;] 아이콘 클릭 후 [New repository] 메뉴 선택 [Repository name]입력
-[Description]입력
-[Create repository]버튼 클릭
-https://github.com/itcooking/privateDocWithType.git &gt;
-Sourcetree # macOS : 키체인의 패스워드 입력을 요구함. 시스템 로그인 패스워드를 입력하면 됨.">
+<meta name="description" content="{{ $images1 := resources.Get &ldquo;images/스크린샷 2020-07-11 13.37.47.png&rdquo; }} {{ with $images1}} {{end}}
+저장소 만들기 # 로컬 저장소 만들기 # git init
+원격 저장소(Repository) 만들기 # GitHub에 접속 [&#43;] 아이콘 클릭 후 [New repository] 메뉴 선택
+[Repository name]입력 [Description]입력 [Create repository]버튼 클릭
+https://github.com/itcooking/privateDocWithType.git Sourcetree # macOS : 키체인의 패스워드 입력을 요구함. 시스템 로그인 패스워드를 입력하면 됨.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="저장소 만들기" />
-<meta property="og:description" content="로컬 저장소 만들기 # git init
-원격 저장소(Repository) 만들기 # GitHub에 접속 [&#43;] 아이콘 클릭 후 [New repository] 메뉴 선택 [Repository name]입력
-[Description]입력
-[Create repository]버튼 클릭
-https://github.com/itcooking/privateDocWithType.git &gt;
-Sourcetree # macOS : 키체인의 패스워드 입력을 요구함. 시스템 로그인 패스워드를 입력하면 됨." />
+<meta property="og:description" content="{{ $images1 := resources.Get &ldquo;images/스크린샷 2020-07-11 13.37.47.png&rdquo; }} {{ with $images1}} {{end}}
+저장소 만들기 # 로컬 저장소 만들기 # git init
+원격 저장소(Repository) 만들기 # GitHub에 접속 [&#43;] 아이콘 클릭 후 [New repository] 메뉴 선택
+[Repository name]입력 [Description]입력 [Create repository]버튼 클릭
+https://github.com/itcooking/privateDocWithType.git Sourcetree # macOS : 키체인의 패스워드 입력을 요구함. 시스템 로그인 패스워드를 입력하면 됨." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kikcode.github.io/posts/010.%EC%A0%80%EC%9E%A5%EC%86%8C%EB%A7%8C%EB%93%A4%EA%B8%B0/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-09-26T00:00:00+00:00" />
@@ -25,9 +23,9 @@ Sourcetree # macOS : 키체인의 패스워드 입력을 요구함. 시스템 �
 <title>저장소 만들기 | Hello Kikcode</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.6b065be18b0f072b9767bff3ce3a0a78f18cd7bd966c501e681b64c4057ad6b2.css" integrity="sha256-awZb4YsPByuXZ7/zzjoKePGM172WbFAeaBtkxAV61rI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.8727a8030258dabaa490e1cf3e0932a0b3a5a5a9fd393647e804a8b3af29a4e2.js" integrity="sha256-hyeoAwJY2rqkkOHPPgkyoLOlpan9OTZH6ASos68ppOI=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.d29b79a8d032ec36789e2670acf351d8ded0f81bf0f2da4939ecfb837f740f25.js" integrity="sha256-0pt5qNAy7DZ4niZwrPNR2N7Q&#43;Bvw8tpJOez7g390DyU=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -419,13 +417,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#저장소-만들기">저장소 만들기</a>
       <ul>
         <li><a href="#로컬-저장소-만들기">로컬 저장소 만들기</a></li>
         <li><a href="#원격-저장소repository-만들기">원격 저장소(Repository) 만들기</a></li>
-        <li><a href="#sourcetree">Sourcetree</a></li>
       </ul>
     </li>
+    <li><a href="#sourcetree">Sourcetree</a></li>
   </ul>
 </nav>
 
@@ -453,7 +451,16 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+<p>{{ $images1 := resources.Get &ldquo;images/스크린샷 2020-07-11 13.37.47.png&rdquo; }}
+{{ with $images1}}
 <!-- raw HTML omitted -->
+{{end}}</p>
+<p><img src="/svg/toc.svg" alt="svg" />
+<img src="/svg/edit.svg" alt="svg" /></p>
+<h2 id="저장소-만들기">
+  저장소 만들기
+  <a class="anchor" href="#%ec%a0%80%ec%9e%a5%ec%86%8c-%eb%a7%8c%eb%93%a4%ea%b8%b0">#</a>
+</h2>
 <h3 id="로컬-저장소-만들기">
   로컬 저장소 만들기
   <a class="anchor" href="#%eb%a1%9c%ec%bb%ac-%ec%a0%80%ec%9e%a5%ec%86%8c-%eb%a7%8c%eb%93%a4%ea%b8%b0">#</a>
@@ -466,28 +473,21 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#%ec%9b%90%ea%b2%a9-%ec%a0%80%ec%9e%a5%ec%86%8crepository-%eb%a7%8c%eb%93%a4%ea%b8%b0">#</a>
 </h3>
 <ul>
-<li><a href="https://github.com">GitHub</a>에 접속 <!-- raw HTML omitted --></li>
-<li>[+] 아이콘 클릭 후 [New repository] 메뉴 선택 <!-- raw HTML omitted --></li>
+<li><a href="https://github.com">GitHub</a>에 접속</li>
+<li>[+] 아이콘 클릭 후 [New repository] 메뉴 선택<br>
+<img src="/images/%ec%8a%a4%ed%81%ac%eb%a6%b0%ec%83%b7%202020-07-11%2013.37.47.png" alt="메뉴" /></li>
 </ul>
 <ul>
-<li>
-<p>[Repository name]입력</p>
-</li>
-<li>
-<p>[Description]입력</p>
-</li>
-<li>
-<p>[Create repository]버튼 클릭</p>
-<blockquote>
-<p><a href="https://github.com/itcooking/privateDocWithType.git">https://github.com/itcooking/privateDocWithType.git</a> &gt;</p>
-</blockquote>
-<!-- raw HTML omitted -->
-</li>
+<li>[Repository name]입력</li>
+<li>[Description]입력</li>
+<li>[Create repository]버튼 클릭<br>
+<a href="https://github.com/itcooking/privateDocWithType.git">https://github.com/itcooking/privateDocWithType.git</a>
+<img src="/images/%ec%8a%a4%ed%81%ac%eb%a6%b0%ec%83%b7%202020-07-11%2013.58.09.png" alt="로그인" /></li>
 </ul>
-<h3 id="sourcetree">
+<h2 id="sourcetree">
   Sourcetree
   <a class="anchor" href="#sourcetree">#</a>
-</h3>
+</h2>
 <blockquote>
 <p>macOS : 키체인의 패스워드 입력을 요구함. 시스템 로그인 패스워드를 입력하면 됨.</p>
 </blockquote>
@@ -532,13 +532,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#저장소-만들기">저장소 만들기</a>
       <ul>
         <li><a href="#로컬-저장소-만들기">로컬 저장소 만들기</a></li>
         <li><a href="#원격-저장소repository-만들기">원격 저장소(Repository) 만들기</a></li>
-        <li><a href="#sourcetree">Sourcetree</a></li>
       </ul>
     </li>
+    <li><a href="#sourcetree">Sourcetree</a></li>
   </ul>
 </nav>
 
