@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kikcode.github.io/docs/example/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/example/table-of-contents/with-toc/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/example/table-of-contents/without-toc/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/posts/010.%EC%A0%80%EC%9E%A5%EC%86%8C%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
-    <lastmod>2023-09-26T00:00:00+00:00</lastmod>
+    <loc>https://kikcode.github.io/posts/adobe-express/</loc>
+    <lastmod>2023-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kikcode.github.io/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
@@ -17,15 +11,11 @@
     <loc>https://kikcode.github.io/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kikcode.github.io/docs/example/table-of-contents/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/example/collapsed/</loc>
-  </url><url>
     <loc>https://kikcode.github.io/posts/</loc>
-    <lastmod>2023-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kikcode.github.io/</loc>
-    <lastmod>2023-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kikcode.github.io/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -63,35 +53,13 @@
     <loc>https://kikcode.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kikcode.github.io/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <loc>https://kikcode.github.io/docs/kikdocs/</loc>
   </url><url>
-    <loc>https://kikcode.github.io/docs/example/collapsed/3rd-level/</loc>
+    <loc>https://kikcode.github.io/docs/kikdocs/hugo/</loc>
   </url><url>
-    <loc>https://kikcode.github.io/docs/example/hidden/</loc>
+    <loc>https://kikcode.github.io/docs/kikdocs/hugo/configure-hugo/</loc>
   </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/buttons/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/columns/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/details/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/expand/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/hints/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/katex/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/mermaid/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/section/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/section/first-page/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/section/second-page/</loc>
-  </url><url>
-    <loc>https://kikcode.github.io/docs/shortcodes/tabs/</loc>
+    <loc>https://kikcode.github.io/docs/kikdocs/hugo/hugo-bundles-%EC%A2%85%EB%A5%98/</loc>
   </url><url>
     <loc>https://kikcode.github.io/docs/</loc>
   </url>

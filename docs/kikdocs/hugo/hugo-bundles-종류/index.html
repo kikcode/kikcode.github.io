@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko-kr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hugo bundles 종류 # 브렌치 번들 : 공통의 첫머리를 공유하는 페이지 세트. 브랜치 번들은 _index.md를 템플릿으로 사용하여 각각의 컨텐츠 리프 페이지를 대표한다. 예 : blog 특정 주제에 대한 블로그 게시물이나 문서처럼 여러 개의 유사한 페이지 집합이 필요한 경우를 일커른다 리프 번들 : 단일 페이지. 단일 페이지는 머리글과 컨텐츠로 구성된 index.md index.md : 여러 리프 페이지의 분기를 형성하는 폴더(예 : menu폴더의 index.md)에 단일 페이지로 사용된다. # 브렌치 번들에서 새 리프 페이지 생성 hugo new post-1.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="Hugo bundles 종류 # 브렌치 번들 : 공통의 첫머리를 공유하는 페이지 세트. 브랜치 번들은 _index.md를 템플릿으로 사용하여 각각의 컨텐츠 리프 페이지를 대표한다. 예 : blog 특정 주제에 대한 블로그 게시물이나 문서처럼 여러 개의 유사한 페이지 집합이 필요한 경우를 일커른다 리프 번들 : 단일 페이지. 단일 페이지는 머리글과 컨텐츠로 구성된 index.md index.md : 여러 리프 페이지의 분기를 형성하는 폴더(예 : menu폴더의 index.md)에 단일 페이지로 사용된다. # 브렌치 번들에서 새 리프 페이지 생성 hugo new post-1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kikcode.github.io/docs/kikdocs/hugo/hugo-bundles-%EC%A2%85%EB%A5%98/" /><meta property="article:section" content="docs" />
+
+
+<title>Hugo Bundles 종류 | Hello Kikcode</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.91ee103e9bcd403c4a1939651654bff5afea6f3266bfe50e01ff1f4e66738901.css" integrity="sha256-ke4QPpvNQDxKGTllFlS/9a/qbzJmv&#43;UOAf8fTmZziQE=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.bf4ae128013182e4b0b7dab3ef8d85e73645342699d9dffbfb88413e19c34c6a.js" integrity="sha256-v0rhKAExguSwt9qz742F5zZFNCaZ2d/7&#43;4hBPhnDTGo=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hello Kikcode</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Kikdocs</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5c48dafe230b1def54016bf34379c060" class="toggle" checked />
+    <label for="section-5c48dafe230b1def54016bf34379c060" class="flex justify-between">
+      <a href="/docs/kikdocs/hugo/" class="">Hugo</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/kikdocs/hugo/configure-hugo/" class="">Configure Hugo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/kikdocs/hugo/hugo-bundles-%EC%A2%85%EB%A5%98/" class="active">Hugo Bundles 종류</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Hugo Bundles 종류</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#indexmd와-_indexmd의-차이점">index.md와 _index.md의 차이점</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="hugo-bundles-종류">
+  Hugo bundles 종류
+  <a class="anchor" href="#hugo-bundles-%ec%a2%85%eb%a5%98">#</a>
+</h1>
+<ul>
+<li>브렌치 번들 : 공통의 첫머리를 공유하는 페이지 세트.
+브랜치 번들은 _index.md를 템플릿으로 사용하여 각각의 컨텐츠 리프 페이지를 대표한다.
+예 : blog
+특정 주제에 대한 블로그 게시물이나 문서처럼 여러 개의 유사한 페이지 집합이 필요한 경우를 일커른다</li>
+<li>리프 번들 : 단일 페이지. 단일 페이지는 머리글과 컨텐츠로 구성된 index.md</li>
+<li>index.md : 여러 리프 페이지의 분기를 형성하는 폴더(예 : menu폴더의 index.md)에 단일 페이지로 사용된다.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 브렌치 번들에서 새 리프 페이지 생성</span>
+</span></span><span style="display:flex;"><span>hugo new post-1.md
+</span></span></code></pre></div><h3 id="indexmd와-_indexmd의-차이점">
+  index.md와 _index.md의 차이점
+  <a class="anchor" href="#indexmd%ec%99%80-_indexmd%ec%9d%98-%ec%b0%a8%ec%9d%b4%ec%a0%90">#</a>
+</h3>
+<p>_index.md : 같은 폴더 아래에 여러 페이지가 있는 경우 사용됨.(폴더를 클릭 했을 때 어떤 페이지를 보여주어야할 지 hugo가 판단하기 어렵다. 보통 폴더의 소개글을 _index.md에 나타낸다.)</p>
+<p>또는 분류 용어에 대한 메타데이터를 추가 하려는 경우 사용됨.</p>
+<p>참고 사이트</p>
+<p><a href="https://tangenttechnologies.ca/blog/hugo-indexmd-vs-_indexmd/">Hugo index.md vs _index.md | Tangent Technologies</a></p>
+<hr>
+<p>번들 : 웹 페이지를 만들기 위해 함께 가져온 파일들의 모음</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#indexmd와-_indexmd의-차이점">index.md와 _index.md의 차이점</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

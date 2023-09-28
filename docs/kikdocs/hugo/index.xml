@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello Kikcode</title>
+    <link>https://kikcode.github.io/docs/kikdocs/hugo/</link>
+    <description>Recent content on Hello Kikcode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language><atom:link href="https://kikcode.github.io/docs/kikdocs/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://kikcode.github.io/docs/kikdocs/hugo/configure-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kikcode.github.io/docs/kikdocs/hugo/configure-hugo/</guid>
+      <description> Configure Hugo # Configuration file # 기본 사이트 설정 파일(사이트 루트에 위치한다.)
+hugo.toml, hugo.yaml, 또는 hugo.json
+설정 파일 재정의 # hugo --config debugconfig.toml hugo --config a.toml,b.toml,.toml </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kikcode.github.io/docs/kikdocs/hugo/hugo-bundles-%EC%A2%85%EB%A5%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kikcode.github.io/docs/kikdocs/hugo/hugo-bundles-%EC%A2%85%EB%A5%98/</guid>
+      <description>Hugo bundles 종류 # 브렌치 번들 : 공통의 첫머리를 공유하는 페이지 세트. 브랜치 번들은 _index.md를 템플릿으로 사용하여 각각의 컨텐츠 리프 페이지를 대표한다. 예 : blog 특정 주제에 대한 블로그 게시물이나 문서처럼 여러 개의 유사한 페이지 집합이 필요한 경우를 일커른다 리프 번들 : 단일 페이지. 단일 페이지는 머리글과 컨텐츠로 구성된 index.md index.md : 여러 리프 페이지의 분기를 형성하는 폴더(예 : menu폴더의 index.md)에 단일 페이지로 사용된다. # 브렌치 번들에서 새 리프 페이지 생성 hugo new post-1.</description>
+    </item>
+    
+  </channel>
+</rss>
