@@ -19,6 +19,18 @@ Adobe Express를 사용하여 웹 페이지 호스팅</description>
     </item>
     
     <item>
+      <title>저장소 만들기</title>
+      <link>https://kikcode.github.io/posts/010.%EC%A0%80%EC%9E%A5%EC%86%8C%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kikcode.github.io/posts/010.%EC%A0%80%EC%9E%A5%EC%86%8C%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description> 저장소 만들기 # 로컬 저장소 만들기 # git init
+원격 저장소(Repository) 만들기 # GitHub에 접속 [+] 아이콘 클릭 후 [New repository] 메뉴 선택
+[Repository name]입력 [Description]입력 [Create repository]버튼 클릭
+https://github.com/itcooking/privateDocWithType.git </description>
+    </item>
+    
+    <item>
       <title>Creating a New Theme</title>
       <link>https://kikcode.github.io/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
