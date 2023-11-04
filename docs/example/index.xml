@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example Site on Hello Kikcode</title>
+    <title>Example Site on Kikcode</title>
     <link>https://kikcode.github.io/docs/example/</link>
-    <description>Recent content in Example Site on Hello Kikcode</description>
+    <description>Recent content in Example Site on Kikcode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language><atom:link href="https://kikcode.github.io/docs/example/index.xml" rel="self" type="application/rss+xml" />
     <item>

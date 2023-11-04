@@ -1,6 +1,6 @@
 {
-  "name": "Hello Kikcode",
-  "short_name": "Hello Kikcode",
+  "name": "Kikcode",
+  "short_name": "Kikcode",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
